@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&display=swap');
+body {
+  width: 300px;
+  height: 350px;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.heading{
+  color: #0051CB;
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
+.sub-heading{
+  font-family: "Andika", sans-serif;
+  font-size: 1.25em;
+}
+
+.information-holder{
+  background-color: #F2F4FF;
+  width: 280px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title{
+  color: #0051CB;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.retrieve-title-button{
+  background-color: #0051CBd4;
+  color: white;
+  border: none;
+  width: 150px;
+  font-weight: 600px;
+  height: 40px;
+  font-size: 1.1rem;
+  transition: all 0.5s;
+  border-radius: 0.5rem;
+}
+
+.retrieve-title-button:hover{
+  background-color: #0051CBe2;
+  cursor: pointer;
+}
+
+.info{
+  color: #858585;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+input{
+  border: 1px solid #0051CB;
+  height: 1.25rem;
+  font-size: 1em;
+  padding: 0.25rem;
+}
+input:focus{
+  outline: none;
+  border: 2px solid #0051CB;
+}

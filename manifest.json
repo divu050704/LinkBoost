@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "LinkBoost",
+    "version": "0.3",
+    "description": "Automatically comment on and like LinkedIn posts based on user input. - Divyanshu Sharma",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "webNavigation"
+    ],
+    "host_permissions": [
+        "https://www.linkedin.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.linkedin.com/*"
+            ],
+            "js": [
+                "JS/content.js"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}
